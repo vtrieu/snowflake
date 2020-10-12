@@ -1,4 +1,4 @@
---CTAS to create MA_PA_COVID_CASES view
+--CTAS to create MA_PA_COVID_CASES views
 CREATE OR REPLACE VIEW MA_PA_COVID_CASES AS 
 (
 select country_region, province_state, county, fips, date, case_type
