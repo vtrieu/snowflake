@@ -1,4 +1,5 @@
 --CTAS to create MA_PA_COVID_CASES view
+--add cases column
 CREATE OR REPLACE VIEW MA_PA_COVID_CASES AS 
 (
 select country_region, province_state, county, fips, date, case_type
