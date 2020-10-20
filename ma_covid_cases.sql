@@ -1,4 +1,4 @@
---CTAS to create MA_PA_COVID_CASES view
+--CTAS to create ma_covid_cases view
 --add cases column
 CREATE OR REPLACE VIEW ma_covid_cases AS 
 (
